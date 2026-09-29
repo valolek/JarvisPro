@@ -1,0 +1,27 @@
+=== ДІАГНОСТИКА МІКРОФОНА ===
+Python: 3.13.5
+SpeechRecognition: 3.17.0 | PyAudio: 0.2.14
+
+Мікрофон Windows за замовчуванням: [1] Microphone Array (Realtek(R) Au
+
+Всі пристрої вводу:
+  [0] Microsoft Sound Mapper - Input  (MME, 44100 Гц)
+  [1] Microphone Array (Realtek(R) Au  (MME, 44100 Гц)
+  [6] Primary Sound Capture Driver  (Windows DirectSound, 44100 Гц)
+  [7] Microphone Array (Realtek(R) Audio)  (Windows DirectSound, 44100 Гц)
+  [15] Microphone Array (Realtek(R) Audio)  (Windows WASAPI, 48000 Гц)
+  [17] Microphone Array (Realtek HD Audio Mic Array input)  (Windows WDM-KS, 44100 Гц)
+  [19] Stereo Mix (Realtek HD Audio Stereo input)  (Windows WDM-KS, 48000 Гц)
+  [20] Microphone (Realtek HD Audio Mic input)  (Windows WDM-KS, 44100 Гц)
+
+--- Запис 4 с, пристрій [1], 16000 Гц. ГОВОРІТЬ: «Джарвіс, котра година» ---
+  Рівень: тиша≈0  середнє=0  максимум=0  (ненульових шматків 63/63)
+  !!! Дуже тихо. Підніміть гучність мікрофона у Windows (Звук → Запис → Властивості → Рівні).
+  Збережено mic_test_16000.wav - можете прослухати, чи чутно вас.
+  !!! Google недоступний: UnknownValueError 
+
+--- Запис 4 с, пристрій [1], 44100 Гц. ГОВОРІТЬ: «Джарвіс, котра година» ---
+  Рівень: тиша≈0  середнє=0  максимум=0  (ненульових шматків 172/172)
+  !!! Дуже тихо. Підніміть гучність мікрофона у Windows (Звук → Запис → Властивості → Рівні).
+  Збережено mic_test_44100.wav - можете прослухати, чи чутно вас.
+  !!! Google недоступний: UnknownValueError 

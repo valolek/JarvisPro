@@ -1,0 +1,7 @@
+SpeechRecognition>=3.10
+PyAudio>=0.2.13
+edge-tts>=6.1
+pygame>=2.5
+yt-dlp
+psutil
+audioop-lts; python_version >= "3.13"
